@@ -1,0 +1,357 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NixieDriver:K155ID1 U?
+U 1 1 5CDD619B
+P 4450 2100
+AR Path="/5CDD545B/5CDD619B" Ref="U?"  Part="1" 
+AR Path="/5CE1A253/5CDD619B" Ref="U?"  Part="1" 
+AR Path="/5CE230C6/5CDD619B" Ref="U?"  Part="1" 
+F 0 "U?" H 4450 2625 50  0000 C CNN
+F 1 "K155ID1" H 4450 2534 50  0000 C CNN
+F 2 "" H 4450 1400 50  0001 C CNN
+F 3 "" H 4450 1400 50  0001 C CNN
+	1    4450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CDD79CF
+P 4050 1850
+AR Path="/5CDD545B/5CDD79CF" Ref="#PWR?"  Part="1" 
+AR Path="/5CE1A253/5CDD79CF" Ref="#PWR?"  Part="1" 
+AR Path="/5CE230C6/5CDD79CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 1700 50  0001 C CNN
+F 1 "+5V" H 4065 2023 50  0000 C CNN
+F 2 "" H 4050 1850 50  0001 C CNN
+F 3 "" H 4050 1850 50  0001 C CNN
+	1    4050 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1850 4050 1950
+Wire Wire Line
+	4050 1950 4150 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5CDD829C
+P 4050 2600
+AR Path="/5CDD545B/5CDD829C" Ref="#PWR?"  Part="1" 
+AR Path="/5CE1A253/5CDD829C" Ref="#PWR?"  Part="1" 
+AR Path="/5CE230C6/5CDD829C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 2350 50  0001 C CNN
+F 1 "GND" H 4055 2427 50  0000 C CNN
+F 2 "" H 4050 2600 50  0001 C CNN
+F 3 "" H 4050 2600 50  0001 C CNN
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2450 4050 2450
+Wire Wire Line
+	4050 2450 4050 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5CDDA026
+P 4050 3500
+AR Path="/5CDD545B/5CDDA026" Ref="#PWR?"  Part="1" 
+AR Path="/5CE1A253/5CDDA026" Ref="#PWR?"  Part="1" 
+AR Path="/5CE230C6/5CDDA026" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 3350 50  0001 C CNN
+F 1 "+5V" H 4065 3673 50  0000 C CNN
+F 2 "" H 4050 3500 50  0001 C CNN
+F 3 "" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3500 4050 3600
+Wire Wire Line
+	4050 3600 4150 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5CDDA02E
+P 4050 4250
+AR Path="/5CDD545B/5CDDA02E" Ref="#PWR?"  Part="1" 
+AR Path="/5CE1A253/5CDDA02E" Ref="#PWR?"  Part="1" 
+AR Path="/5CE230C6/5CDDA02E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4050 4000 50  0001 C CNN
+F 1 "GND" H 4055 4077 50  0000 C CNN
+F 2 "" H 4050 4250 50  0001 C CNN
+F 3 "" H 4050 4250 50  0001 C CNN
+	1    4050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4100 4050 4100
+Wire Wire Line
+	4050 4100 4050 4250
+Wire Wire Line
+	3100 2600 3100 2050
+Wire Wire Line
+	3100 2050 4150 2050
+Wire Wire Line
+	3100 2700 3200 2700
+Wire Wire Line
+	3200 2700 3200 2150
+Wire Wire Line
+	3200 2150 4150 2150
+Wire Wire Line
+	3100 2800 3300 2800
+Wire Wire Line
+	3300 2250 4150 2250
+Wire Wire Line
+	3400 2900 3400 2350
+Wire Wire Line
+	3400 2350 4150 2350
+Wire Wire Line
+	3450 3000 3450 3700
+Wire Wire Line
+	3450 3700 4150 3700
+Wire Wire Line
+	3100 3000 3450 3000
+Wire Wire Line
+	3100 2900 3400 2900
+Wire Wire Line
+	3300 2800 3300 2250
+$Comp
+L 74xx:74HC595 U?
+U 1 1 5CDD5A97
+P 2700 3000
+AR Path="/5CDD545B/5CDD5A97" Ref="U?"  Part="1" 
+AR Path="/5CE1A253/5CDD5A97" Ref="U?"  Part="1" 
+AR Path="/5CE230C6/5CDD5A97" Ref="U?"  Part="1" 
+F 0 "U?" H 2450 3650 50  0000 C CNN
+F 1 "74HC595" H 2450 3550 50  0000 C CNN
+F 2 "" H 2700 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2700 3000 50  0001 C CNN
+	1    2700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3100 3350 3100
+Wire Wire Line
+	3350 3100 3350 3800
+Wire Wire Line
+	3350 3800 4150 3800
+Wire Wire Line
+	3100 3200 3250 3200
+Wire Wire Line
+	3250 3200 3250 3900
+Wire Wire Line
+	3250 3900 4150 3900
+Wire Wire Line
+	3100 3300 3150 3300
+Wire Wire Line
+	3150 3300 3150 4000
+Wire Wire Line
+	3150 4000 4150 4000
+Wire Wire Line
+	2300 2600 2000 2600
+Wire Wire Line
+	2300 2800 2000 2800
+Wire Wire Line
+	2300 2900 2000 2900
+Wire Wire Line
+	2300 3100 2000 3100
+Wire Wire Line
+	2300 3200 2000 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5CDE272E
+P 2700 3700
+AR Path="/5CDD545B/5CDE272E" Ref="#PWR?"  Part="1" 
+AR Path="/5CE1A253/5CDE272E" Ref="#PWR?"  Part="1" 
+AR Path="/5CE230C6/5CDE272E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 3450 50  0001 C CNN
+F 1 "GND" H 2705 3527 50  0000 C CNN
+F 2 "" H 2700 3700 50  0001 C CNN
+F 3 "" H 2700 3700 50  0001 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5CDE2CA5
+P 2700 2400
+AR Path="/5CDD545B/5CDE2CA5" Ref="#PWR?"  Part="1" 
+AR Path="/5CE1A253/5CDE2CA5" Ref="#PWR?"  Part="1" 
+AR Path="/5CE230C6/5CDE2CA5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2700 2250 50  0001 C CNN
+F 1 "+5V" H 2715 2573 50  0000 C CNN
+F 2 "" H 2700 2400 50  0001 C CNN
+F 3 "" H 2700 2400 50  0001 C CNN
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+Text Label 2000 2600 0    50   ~ 0
+SER
+Text Label 2000 2800 0    50   ~ 0
+SRCLK
+Text Label 2000 2900 0    50   ~ 0
+~SRCLR
+Text Label 2000 3100 0    50   ~ 0
+RCLK
+Text Label 2000 3200 0    50   ~ 0
+~OE
+Text HLabel 2000 2600 0    50   Input ~ 0
+SER
+Text HLabel 2000 2800 0    50   Input ~ 0
+SRCLK
+Text HLabel 2000 2900 0    50   Input ~ 0
+~SRCLR
+Text HLabel 2000 3100 0    50   Input ~ 0
+RCLK
+Text HLabel 2000 3200 0    50   Input ~ 0
+~OE
+Wire Wire Line
+	3100 3500 3100 4350
+Wire Wire Line
+	3100 4350 3300 4350
+Text HLabel 3300 4350 2    50   Output ~ 0
+QH'
+$Comp
+L nixies-us:IN-14 N?
+U 1 1 5CDEF700
+P 5950 2300
+AR Path="/5CDD545B/5CDEF700" Ref="N?"  Part="1" 
+AR Path="/5CE1A253/5CDEF700" Ref="N?"  Part="1" 
+AR Path="/5CE230C6/5CDEF700" Ref="N?"  Part="1" 
+F 0 "N?" H 6000 3045 45  0000 C CNN
+F 1 "IN-14" H 5950 2300 45  0001 L BNN
+F 2 "nixies-us_IN-14" H 5980 2450 20  0001 C CNN
+F 3 "" H 5950 2300 50  0001 C CNN
+	1    5950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L nixies-us:IN-14 N?
+U 1 1 5CDF07F9
+P 5950 3950
+AR Path="/5CDD545B/5CDF07F9" Ref="N?"  Part="1" 
+AR Path="/5CE1A253/5CDF07F9" Ref="N?"  Part="1" 
+AR Path="/5CE230C6/5CDF07F9" Ref="N?"  Part="1" 
+F 0 "N?" H 6000 4695 45  0000 C CNN
+F 1 "IN-14" H 5950 3950 45  0001 L BNN
+F 2 "nixies-us_IN-14" H 5980 4100 20  0001 C CNN
+F 3 "" H 5950 3950 50  0001 C CNN
+	1    5950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NixieDriver:K155ID1 U?
+U 1 1 5CDDA020
+P 4450 3750
+AR Path="/5CDD545B/5CDDA020" Ref="U?"  Part="1" 
+AR Path="/5CE1A253/5CDDA020" Ref="U?"  Part="1" 
+AR Path="/5CE230C6/5CDDA020" Ref="U?"  Part="1" 
+F 0 "U?" H 4450 4275 50  0000 C CNN
+F 1 "K155ID1" H 4450 4184 50  0000 C CNN
+F 2 "" H 4450 3050 50  0001 C CNN
+F 3 "" H 4450 3050 50  0001 C CNN
+	1    4450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1900 5650 1900
+Wire Wire Line
+	5650 2000 4750 2000
+Wire Wire Line
+	4750 2100 5650 2100
+Wire Wire Line
+	5650 2200 4750 2200
+Wire Wire Line
+	4750 2300 5650 2300
+Wire Wire Line
+	5650 2400 4750 2400
+Wire Wire Line
+	4750 2500 5650 2500
+Wire Wire Line
+	4750 2600 5650 2600
+Wire Wire Line
+	5650 2700 4750 2700
+Wire Wire Line
+	4750 1800 5200 1800
+Wire Wire Line
+	5200 1800 5200 2800
+Wire Wire Line
+	5200 2800 5650 2800
+Wire Wire Line
+	4750 3550 5650 3550
+Wire Wire Line
+	5650 3650 4750 3650
+Wire Wire Line
+	4750 3750 5650 3750
+Wire Wire Line
+	5650 3850 4750 3850
+Wire Wire Line
+	4750 3950 5650 3950
+Wire Wire Line
+	5650 4050 4750 4050
+Wire Wire Line
+	4750 4150 5650 4150
+Wire Wire Line
+	5650 4250 4750 4250
+Wire Wire Line
+	4750 4350 5650 4350
+Wire Wire Line
+	5650 4450 5200 4450
+Wire Wire Line
+	5200 4450 5200 3450
+Wire Wire Line
+	5200 3450 4750 3450
+Text Label 6650 2100 0    50   ~ 0
++170V
+NoConn ~ 6350 1900
+NoConn ~ 6350 2800
+NoConn ~ 6350 3550
+NoConn ~ 6350 4450
+Wire Wire Line
+	6650 2100 6650 2400
+$Comp
+L Device:R_Small R?
+U 1 1 5CE1D1FE
+P 6450 2400
+AR Path="/5CDD545B/5CE1D1FE" Ref="R?"  Part="1" 
+AR Path="/5CE230C6/5CE1D1FE" Ref="R?"  Part="1" 
+F 0 "R?" V 6254 2400 50  0000 C CNN
+F 1 "3K" V 6345 2400 50  0000 C CNN
+F 2 "" H 6450 2400 50  0001 C CNN
+F 3 "~" H 6450 2400 50  0001 C CNN
+	1    6450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5CE1DDAF
+P 6450 4050
+AR Path="/5CDD545B/5CE1DDAF" Ref="R?"  Part="1" 
+AR Path="/5CE230C6/5CE1DDAF" Ref="R?"  Part="1" 
+F 0 "R?" V 6254 4050 50  0000 C CNN
+F 1 "3K" V 6345 4050 50  0000 C CNN
+F 2 "" H 6450 4050 50  0001 C CNN
+F 3 "~" H 6450 4050 50  0001 C CNN
+	1    6450 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 2400 6650 2400
+Connection ~ 6650 2400
+Wire Wire Line
+	6650 2400 6650 4050
+Wire Wire Line
+	6550 4050 6650 4050
+$EndSCHEMATC

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name NixieDriver)(type Legacy)(uri ${KIPRJMOD}/NixieDriver.lib)(options "")(descr ""))
+  (lib (name mynixies)(type Legacy)(uri ${KIPRJMOD}/Eagle-and-KiCAD-Nixie-Libs-master/Eagle-and-KiCAD-Nixie-Libs-master/mynixies.lib)(options "")(descr ""))
+  (lib (name nixiemisc)(type Legacy)(uri ${KIPRJMOD}/Eagle-and-KiCAD-Nixie-Libs-master/Eagle-and-KiCAD-Nixie-Libs-master/nixiemisc.lib)(options "")(descr ""))
+  (lib (name nixies-us)(type Legacy)(uri ${KIPRJMOD}/Eagle-and-KiCAD-Nixie-Libs-master/Eagle-and-KiCAD-Nixie-Libs-master/nixies-us.lib)(options "")(descr ""))
+)
