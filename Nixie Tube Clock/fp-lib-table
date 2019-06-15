@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Eagle-and-KiCAD-Nixie-Libs-master)(type KiCad)(uri ${KIPRJMOD}/Eagle-and-KiCAD-Nixie-Libs-master/Eagle-and-KiCAD-Nixie-Libs-master.pretty)(options "")(descr ""))
+  (lib (name "Nixie Tube Clock")(type KiCad)(uri "${KIPRJMOD}/Eagle-and-KiCAD-Nixie-Libs-master/Eagle-and-KiCAD-Nixie-Libs-master/Nixie Tube Clock.pretty")(options "")(descr ""))
+  (lib (name Graphics)(type KiCad)(uri "C:/Users/hobbs/Documents/Projects/NixieTubeClock/Nixie Tube Clock/Graphics")(options "")(descr ""))
+)

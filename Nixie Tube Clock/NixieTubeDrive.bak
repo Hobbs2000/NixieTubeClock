@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Nixie Tube Clock-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -14,27 +15,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L NixieDriver:K155ID1 U?
+L NixieDriver:K155ID1 U5
 U 1 1 5CDD619B
 P 4450 2100
-AR Path="/5CDD545B/5CDD619B" Ref="U?"  Part="1" 
+AR Path="/5CDD545B/5CDD619B" Ref="U5"  Part="1" 
 AR Path="/5CE1A253/5CDD619B" Ref="U?"  Part="1" 
-AR Path="/5CE230C6/5CDD619B" Ref="U?"  Part="1" 
-F 0 "U?" H 4450 2625 50  0000 C CNN
+AR Path="/5CE230C6/5CDD619B" Ref="U8"  Part="1" 
+F 0 "U8" H 4450 2625 50  0000 C CNN
 F 1 "K155ID1" H 4450 2534 50  0000 C CNN
-F 2 "" H 4450 1400 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4450 1400 50  0001 C CNN
 F 3 "" H 4450 1400 50  0001 C CNN
 	1    4450 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR029
 U 1 1 5CDD79CF
 P 4050 1850
-AR Path="/5CDD545B/5CDD79CF" Ref="#PWR?"  Part="1" 
+AR Path="/5CDD545B/5CDD79CF" Ref="#PWR029"  Part="1" 
 AR Path="/5CE1A253/5CDD79CF" Ref="#PWR?"  Part="1" 
-AR Path="/5CE230C6/5CDD79CF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4050 1700 50  0001 C CNN
+AR Path="/5CE230C6/5CDD79CF" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 4050 1700 50  0001 C CNN
 F 1 "+5V" H 4065 2023 50  0000 C CNN
 F 2 "" H 4050 1850 50  0001 C CNN
 F 3 "" H 4050 1850 50  0001 C CNN
@@ -46,13 +47,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 1950 4150 1950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR030
 U 1 1 5CDD829C
 P 4050 2600
-AR Path="/5CDD545B/5CDD829C" Ref="#PWR?"  Part="1" 
+AR Path="/5CDD545B/5CDD829C" Ref="#PWR030"  Part="1" 
 AR Path="/5CE1A253/5CDD829C" Ref="#PWR?"  Part="1" 
-AR Path="/5CE230C6/5CDD829C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4050 2350 50  0001 C CNN
+AR Path="/5CE230C6/5CDD829C" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 4050 2350 50  0001 C CNN
 F 1 "GND" H 4055 2427 50  0000 C CNN
 F 2 "" H 4050 2600 50  0001 C CNN
 F 3 "" H 4050 2600 50  0001 C CNN
@@ -64,13 +65,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 2450 4050 2600
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR031
 U 1 1 5CDDA026
 P 4050 3500
-AR Path="/5CDD545B/5CDDA026" Ref="#PWR?"  Part="1" 
+AR Path="/5CDD545B/5CDDA026" Ref="#PWR031"  Part="1" 
 AR Path="/5CE1A253/5CDDA026" Ref="#PWR?"  Part="1" 
-AR Path="/5CE230C6/5CDDA026" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4050 3350 50  0001 C CNN
+AR Path="/5CE230C6/5CDDA026" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 4050 3350 50  0001 C CNN
 F 1 "+5V" H 4065 3673 50  0000 C CNN
 F 2 "" H 4050 3500 50  0001 C CNN
 F 3 "" H 4050 3500 50  0001 C CNN
@@ -82,13 +83,13 @@ Wire Wire Line
 Wire Wire Line
 	4050 3600 4150 3600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR032
 U 1 1 5CDDA02E
 P 4050 4250
-AR Path="/5CDD545B/5CDDA02E" Ref="#PWR?"  Part="1" 
+AR Path="/5CDD545B/5CDDA02E" Ref="#PWR032"  Part="1" 
 AR Path="/5CE1A253/5CDDA02E" Ref="#PWR?"  Part="1" 
-AR Path="/5CE230C6/5CDDA02E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4050 4000 50  0001 C CNN
+AR Path="/5CE230C6/5CDDA02E" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 4050 4000 50  0001 C CNN
 F 1 "GND" H 4055 4077 50  0000 C CNN
 F 2 "" H 4050 4250 50  0001 C CNN
 F 3 "" H 4050 4250 50  0001 C CNN
@@ -128,15 +129,15 @@ Wire Wire Line
 Wire Wire Line
 	3300 2800 3300 2250
 $Comp
-L 74xx:74HC595 U?
+L 74xx:74HC595 U4
 U 1 1 5CDD5A97
 P 2700 3000
-AR Path="/5CDD545B/5CDD5A97" Ref="U?"  Part="1" 
+AR Path="/5CDD545B/5CDD5A97" Ref="U4"  Part="1" 
 AR Path="/5CE1A253/5CDD5A97" Ref="U?"  Part="1" 
-AR Path="/5CE230C6/5CDD5A97" Ref="U?"  Part="1" 
-F 0 "U?" H 2450 3650 50  0000 C CNN
+AR Path="/5CE230C6/5CDD5A97" Ref="U7"  Part="1" 
+F 0 "U7" H 2450 3650 50  0000 C CNN
 F 1 "74HC595" H 2450 3550 50  0000 C CNN
-F 2 "" H 2700 3000 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2700 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2700 3000 50  0001 C CNN
 	1    2700 3000
 	1    0    0    -1  
@@ -170,13 +171,13 @@ Wire Wire Line
 Wire Wire Line
 	2300 3200 2000 3200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR028
 U 1 1 5CDE272E
 P 2700 3700
-AR Path="/5CDD545B/5CDE272E" Ref="#PWR?"  Part="1" 
+AR Path="/5CDD545B/5CDE272E" Ref="#PWR028"  Part="1" 
 AR Path="/5CE1A253/5CDE272E" Ref="#PWR?"  Part="1" 
-AR Path="/5CE230C6/5CDE272E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 3450 50  0001 C CNN
+AR Path="/5CE230C6/5CDE272E" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 2700 3450 50  0001 C CNN
 F 1 "GND" H 2705 3527 50  0000 C CNN
 F 2 "" H 2700 3700 50  0001 C CNN
 F 3 "" H 2700 3700 50  0001 C CNN
@@ -184,13 +185,13 @@ F 3 "" H 2700 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR027
 U 1 1 5CDE2CA5
 P 2700 2400
-AR Path="/5CDD545B/5CDE2CA5" Ref="#PWR?"  Part="1" 
+AR Path="/5CDD545B/5CDE2CA5" Ref="#PWR027"  Part="1" 
 AR Path="/5CE1A253/5CDE2CA5" Ref="#PWR?"  Part="1" 
-AR Path="/5CE230C6/5CDE2CA5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2700 2250 50  0001 C CNN
+AR Path="/5CE230C6/5CDE2CA5" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 2700 2250 50  0001 C CNN
 F 1 "+5V" H 2715 2573 50  0000 C CNN
 F 2 "" H 2700 2400 50  0001 C CNN
 F 3 "" H 2700 2400 50  0001 C CNN
@@ -224,43 +225,43 @@ Wire Wire Line
 Text HLabel 3300 4350 2    50   Output ~ 0
 QH'
 $Comp
-L nixies-us:IN-14 N?
+L nixies-us:IN-14 N1
 U 1 1 5CDEF700
 P 5950 2300
-AR Path="/5CDD545B/5CDEF700" Ref="N?"  Part="1" 
+AR Path="/5CDD545B/5CDEF700" Ref="N1"  Part="1" 
 AR Path="/5CE1A253/5CDEF700" Ref="N?"  Part="1" 
-AR Path="/5CE230C6/5CDEF700" Ref="N?"  Part="1" 
-F 0 "N?" H 6000 3045 45  0000 C CNN
+AR Path="/5CE230C6/5CDEF700" Ref="N3"  Part="1" 
+F 0 "N3" H 6000 3045 45  0000 C CNN
 F 1 "IN-14" H 5950 2300 45  0001 L BNN
-F 2 "nixies-us_IN-14" H 5980 2450 20  0001 C CNN
+F 2 "Nixie Tube Clock:Nixie_IN-14" H 5980 2450 20  0001 C CNN
 F 3 "" H 5950 2300 50  0001 C CNN
 	1    5950 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L nixies-us:IN-14 N?
+L nixies-us:IN-14 N2
 U 1 1 5CDF07F9
 P 5950 3950
-AR Path="/5CDD545B/5CDF07F9" Ref="N?"  Part="1" 
+AR Path="/5CDD545B/5CDF07F9" Ref="N2"  Part="1" 
 AR Path="/5CE1A253/5CDF07F9" Ref="N?"  Part="1" 
-AR Path="/5CE230C6/5CDF07F9" Ref="N?"  Part="1" 
-F 0 "N?" H 6000 4695 45  0000 C CNN
+AR Path="/5CE230C6/5CDF07F9" Ref="N4"  Part="1" 
+F 0 "N4" H 6000 4695 45  0000 C CNN
 F 1 "IN-14" H 5950 3950 45  0001 L BNN
-F 2 "nixies-us_IN-14" H 5980 4100 20  0001 C CNN
+F 2 "Nixie Tube Clock:Nixie_IN-14" H 5980 4100 20  0001 C CNN
 F 3 "" H 5950 3950 50  0001 C CNN
 	1    5950 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L NixieDriver:K155ID1 U?
+L NixieDriver:K155ID1 U6
 U 1 1 5CDDA020
 P 4450 3750
-AR Path="/5CDD545B/5CDDA020" Ref="U?"  Part="1" 
+AR Path="/5CDD545B/5CDDA020" Ref="U6"  Part="1" 
 AR Path="/5CE1A253/5CDDA020" Ref="U?"  Part="1" 
-AR Path="/5CE230C6/5CDDA020" Ref="U?"  Part="1" 
-F 0 "U?" H 4450 4275 50  0000 C CNN
+AR Path="/5CE230C6/5CDDA020" Ref="U9"  Part="1" 
+F 0 "U9" H 4450 4275 50  0000 C CNN
 F 1 "K155ID1" H 4450 4184 50  0000 C CNN
-F 2 "" H 4450 3050 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4450 3050 50  0001 C CNN
 F 3 "" H 4450 3050 50  0001 C CNN
 	1    4450 3750
 	1    0    0    -1  
@@ -322,27 +323,27 @@ NoConn ~ 6350 4450
 Wire Wire Line
 	6650 2100 6650 2400
 $Comp
-L Device:R_Small R?
+L Device:R_Small R4
 U 1 1 5CE1D1FE
 P 6450 2400
-AR Path="/5CDD545B/5CE1D1FE" Ref="R?"  Part="1" 
-AR Path="/5CE230C6/5CE1D1FE" Ref="R?"  Part="1" 
-F 0 "R?" V 6254 2400 50  0000 C CNN
+AR Path="/5CDD545B/5CE1D1FE" Ref="R4"  Part="1" 
+AR Path="/5CE230C6/5CE1D1FE" Ref="R6"  Part="1" 
+F 0 "R6" V 6254 2400 50  0000 C CNN
 F 1 "3K" V 6345 2400 50  0000 C CNN
-F 2 "" H 6450 2400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6450 2400 50  0001 C CNN
 F 3 "~" H 6450 2400 50  0001 C CNN
 	1    6450 2400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R5
 U 1 1 5CE1DDAF
 P 6450 4050
-AR Path="/5CDD545B/5CE1DDAF" Ref="R?"  Part="1" 
-AR Path="/5CE230C6/5CE1DDAF" Ref="R?"  Part="1" 
-F 0 "R?" V 6254 4050 50  0000 C CNN
+AR Path="/5CDD545B/5CE1DDAF" Ref="R5"  Part="1" 
+AR Path="/5CE230C6/5CE1DDAF" Ref="R7"  Part="1" 
+F 0 "R7" V 6254 4050 50  0000 C CNN
 F 1 "3K" V 6345 4050 50  0000 C CNN
-F 2 "" H 6450 4050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6450 4050 50  0001 C CNN
 F 3 "~" H 6450 4050 50  0001 C CNN
 	1    6450 4050
 	0    1    1    0   
@@ -354,4 +355,6 @@ Wire Wire Line
 	6650 2400 6650 4050
 Wire Wire Line
 	6550 4050 6650 4050
+Text HLabel 6650 2150 2    50   Input ~ 0
++170V
 $EndSCHEMATC

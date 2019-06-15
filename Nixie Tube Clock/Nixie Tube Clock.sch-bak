@@ -142,7 +142,7 @@ U 1 1 5CDD2D84
 P 3050 2700
 F 0 "R1" H 3109 2746 50  0000 L CNN
 F 1 "10K" H 3109 2655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3050 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 3050 2700 50  0001 C CNN
 F 3 "~" H 3050 2700 50  0001 C CNN
 	1    3050 2700
 	1    0    0    -1  
@@ -464,6 +464,8 @@ Wire Wire Line
 Wire Wire Line
 	6000 6100 5600 6100
 Wire Wire Line
+	6500 6100 6850 6100
+Wire Wire Line
 	6000 6200 5650 6200
 Text Label 6900 6200 2    50   ~ 0
 ESP_GPIO0
@@ -739,7 +741,7 @@ U 1 1 5CECE041
 P 4900 6100
 F 0 "R3" H 5050 6050 50  0000 R CNN
 F 1 "2.2K" H 5100 6150 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4900 6100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4900 6100 50  0001 C CNN
 F 3 "~" H 4900 6100 50  0001 C CNN
 	1    4900 6100
 	-1   0    0    1   
@@ -750,7 +752,7 @@ U 1 1 5CECD274
 P 4900 5900
 F 0 "R2" H 5050 5850 50  0000 R CNN
 F 1 "1K" H 5050 5950 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4900 5900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4900 5900 50  0001 C CNN
 F 3 "~" H 4900 5900 50  0001 C CNN
 	1    4900 5900
 	-1   0    0    1   
@@ -826,124 +828,47 @@ Wire Wire Line
 Wire Wire Line
 	5650 6450 5650 6400
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5CF9FF63
-P 7600 1150
-F 0 "H1" H 7700 1196 50  0000 L CNN
-F 1 "MountingHole" H 7700 1105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7600 1150 50  0001 C CNN
-F 3 "~" H 7600 1150 50  0001 C CNN
-	1    7600 1150
+L Mechanical:MountingHole_Pad H?
+U 1 1 5CF8FDD5
+P 7600 950
+F 0 "H?" H 7700 999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7700 908 50  0000 L CNN
+F 2 "" H 7600 950 50  0001 C CNN
+F 3 "~" H 7600 950 50  0001 C CNN
+	1    7600 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
-U 1 1 5CFA377C
-P 7600 1550
-F 0 "H3" H 7700 1596 50  0000 L CNN
-F 1 "MountingHole" H 7700 1505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7600 1550 50  0001 C CNN
-F 3 "~" H 7600 1550 50  0001 C CNN
-	1    7600 1550
+L Mechanical:MountingHole_Pad H?
+U 1 1 5CF93E9C
+P 7600 1300
+F 0 "H?" H 7700 1349 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7700 1258 50  0000 L CNN
+F 2 "" H 7600 1300 50  0001 C CNN
+F 3 "~" H 7600 1300 50  0001 C CNN
+	1    7600 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
-U 1 1 5CFA645F
-P 7600 1750
-F 0 "H4" H 7700 1796 50  0000 L CNN
-F 1 "MountingHole" H 7700 1705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7600 1750 50  0001 C CNN
-F 3 "~" H 7600 1750 50  0001 C CNN
-	1    7600 1750
+L Mechanical:MountingHole_Pad H?
+U 1 1 5CF96BDA
+P 7600 1700
+F 0 "H?" H 7700 1749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7700 1658 50  0000 L CNN
+F 2 "" H 7600 1700 50  0001 C CNN
+F 3 "~" H 7600 1700 50  0001 C CNN
+	1    7600 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
-U 1 1 5CE38068
-P 6250 4100
-F 0 "TP5" H 6050 4250 50  0000 L CNN
-F 1 "+5V" H 6050 4150 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 6450 4100 50  0001 C CNN
-F 3 "~" H 6450 4100 50  0001 C CNN
-	1    6250 4100
-	-1   0    0    1   
+L Mechanical:MountingHole_Pad H?
+U 1 1 5CF998B0
+P 7600 2000
+F 0 "H?" H 7700 2049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7700 1958 50  0000 L CNN
+F 2 "" H 7600 2000 50  0001 C CNN
+F 3 "~" H 7600 2000 50  0001 C CNN
+	1    7600 2000
+	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5CE3EE7F
-P 7500 4100
-F 0 "TP7" H 7300 4250 50  0000 L CNN
-F 1 "+3V3" H 7250 4150 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 7700 4100 50  0001 C CNN
-F 3 "~" H 7700 4100 50  0001 C CNN
-	1    7500 4100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7500 4000 7500 4100
-Connection ~ 7500 4000
-Wire Wire Line
-	6250 4000 6250 4100
-Connection ~ 6250 4000
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5CE481D4
-P 3050 2800
-F 0 "TP1" H 2850 2950 50  0000 L CNN
-F 1 "~RST" H 2850 3050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3250 2800 50  0001 C CNN
-F 3 "~" H 3250 2800 50  0001 C CNN
-	1    3050 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5CE4ECA2
-P 3150 6100
-F 0 "TP2" H 3200 6250 50  0000 L CNN
-F 1 "+12V" H 3200 6150 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3350 6100 50  0001 C CNN
-F 3 "~" H 3350 6100 50  0001 C CNN
-	1    3150 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5CE52020
-P 3150 6550
-F 0 "TP3" H 3200 6700 50  0000 L CNN
-F 1 "+170V" H 3150 6600 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3350 6550 50  0001 C CNN
-F 3 "~" H 3350 6550 50  0001 C CNN
-	1    3150 6550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5CE555F7
-P 7150 6100
-F 0 "TP6" H 6950 6250 50  0000 L CNN
-F 1 "ESP_RST" H 6800 6150 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 7350 6100 50  0001 C CNN
-F 3 "~" H 7350 6100 50  0001 C CNN
-	1    7150 6100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6500 6100 7150 6100
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5CE5BB42
-P 4200 2800
-F 0 "TP4" H 4000 2950 50  0000 L CNN
-F 1 "GND" H 4000 2850 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4400 2800 50  0001 C CNN
-F 3 "~" H 4400 2800 50  0001 C CNN
-	1    4200 2800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4200 2800 3950 2800
-Connection ~ 3950 2800
 $EndSCHEMATC
